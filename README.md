@@ -17,7 +17,7 @@
 <ol start="2">
     <li>Navigate to the project directory:</li>
 </ol>
-<pre><code>cd climate-data-management-system</code></pre>
+<pre><code>cd climate_data_management_system</code></pre>
 <ol start="3">
     <li>Install the project dependencies:</li>
 </ol>
