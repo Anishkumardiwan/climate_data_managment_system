@@ -1,0 +1,21 @@
+{
+  "name": "climate-data-managmet-system",
+  "version": "1.0.0",
+  "description": "The best package you will ever find.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": "https://github.com/Anishkumardiwan/climate_data_managment_system.git",
+  "author": "anish diwan",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2"
+  }
+}
