@@ -23,18 +23,10 @@
 </ol>
 <pre><code>npm install</code></pre>
 <ol start="4">
-    <li>Start the MongoDB</li>
+    <li>Start the server. You can usually do this by running:</li>
 </ol>
-<ol start="4">
-    <li>Start the MongoDB server. You can usually do this by running:</li>
-</ol>
-<pre><code>mongod</code></pre>
-<p>Make sure MongoDB is running on the default port (27017). If not, update the MongoDB connection string in <code>app.js</code> accordingly.</p>
-<ol start="5">
-    <li>Start the Node.js server:</li>
-</ol>
-<pre><code>node app.js</code></pre>
-<p>The server will start and listen on port 3000.</p>
+<pre><code>npm start</code></pre>
+<p>The server will start and listen on port 5000 or Decleare the process.env.PORT in .env file.</p>
 <h2>Usage</h2>
 <h3>Saving Climate Data</h3>
 <p>To save climate data, make a POST request to the <code>/api/climate</code> endpoint with the following payload:</p>
