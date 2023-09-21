@@ -13,7 +13,7 @@
 <ol>
     <li>Clone this repository to your local machine:</li>
 </ol>
-<pre><code>git clone &lt;repository-url&gt;</code></pre>
+<pre><code>git clone https://github.com/Anishkumardiwan/climate_data_managment_system;</code></pre>
 <ol start="2">
     <li>Navigate to the project directory:</li>
 </ol>
