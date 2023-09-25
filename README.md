@@ -26,6 +26,11 @@
     <li>Start the server. You can usually do this by running:</li>
 </ol>
 <pre><code>npm start</code></pre>
+<ol start="4">
+    <li>Add .env file and Declare the variable:</li>
+</ol>
+<pre><code>PORT</code></pre>
+<pre><code>MONGODBURL</code></pre>
 <p>The server will start and listen on port 5000 or Decleare the process.env.PORT in .env file.</p>
 <h2>Usage</h2>
 <h3>Saving Climate Data</h3>
