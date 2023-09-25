@@ -4,11 +4,12 @@ const mongoose = require('mongoose');
 const { join } = require('path');
 const cors = require('cors');
 const climateRoutes = require(join(__dirname, './app/Routes/climateRoutes'));
+require("dotenv").config();
 
 const app = express();
 
 // Connect DataBase
-mongoose.connect(process.env.MONGODBURL || 'mongodb+srv://Diwan:Diwan011@cluster0.tph1urg.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp');
+mongoose.connect(process.env.MONGODBURL);
 
 // CORS
 app.use(cors({
